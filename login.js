@@ -83,7 +83,9 @@ loginForm.addEventListener("submit", (e) => {
       alert("Login Successful");
 
       console.log("User:", userCredential.user);
-      window.location.href = "index.html";
+     // For successful login redirection
+window.location.href = "home.html";
+
     
     })
     .catch((error) => {
